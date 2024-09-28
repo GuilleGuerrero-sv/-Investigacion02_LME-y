@@ -20,36 +20,45 @@
     font-size: 1.25rem; /* Tamaño adecuado para párrafos */
 }
 
-/*------------- LOGO SECTION------*/
-.logo-box {
-    width: 280px; /* Ancho del rectángulo del logo */
-    padding: 5px;
-    background-color: white; /* Fondo blanco para el logo */
-    border: 2px solid #00aef0; /* Borde azul */
-    text-align: center; /* Centra el texto dentro del logo */
+/*------------- NAVBAR (Actualizado) -------------*/
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el logo y los botones */
+    align-items: center;
+    padding: 10px 50px; /* Aumenta el padding para expandir el espacio */
+    background-color: white;
 }
-
-.logo-line-1, .logo-line-2, .logo-line-3 {
-    text-align: center;
-    font-weight: bold; /* Negrita para las tres líneas */
-    margin: 0; /* Eliminar margen entre las líneas */
-    line-height: 0.9; /* Reducir espacio entre las palabras */
+.navbar-brand {
+    margin-right: auto; /* Desplaza el logo hacia la izquierda */
+    padding-left: 20px; /* Ajusta la posición del logo */
+    flex: 1; /* Permite que el logo ocupe más espacio */
 }
-
-.logo-line-1 {
-    color: #044a8b; /* Azul claro */
-    font-size: 16px; /* Tamaño pequeño para 'CENTER FOR' */
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    flex-grow: 2; /* Permite que el contenedor de los botones ocupe más espacio */
 }
-
-.logo-line-2 {
-    color: #4794dd; /* Azul más claro */
-    font-size: 28px; /* Tamaño grande para 'NONPROFIT' */
+.nav-item {
+    margin: 0 20px; /* Aumenta la separación entre los botones */
 }
-
-.logo-line-3 {
-    color: #044a8b; /* Azul claro */
-    font-size: 20px; /* Tamaño medio para 'MANAGEMENT' */
+.nav-link {
+    color: gray;
+    padding: 15px 30px; /* Aumenta el padding para hacer los botones más grandes */
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Mantiene el borde redondeado */
 }
+.nav-link.active {
+    background-color: #00ADEF; /* Color azul para el botón activo */
+    color: white;
+}
+.nav-link:hover {
+    background-color: #00ADEF; /* Color azul en hover */
+    color: white;
+}
+.logo-img {
+    width: 280px; /* Ajusta al tamaño del logo original */
+    height: auto; /* Mantiene la proporción de la imagen */
 
 /*------------- SECTION CARDS------*/
 .section-cards {
