@@ -1,0 +1,215 @@
+/*------------- HERO SECTION------*/
+.hero-section {
+    background-image: url('img/prueba1.png'); /* Aquí colocas tu imagen de fondo */
+    background-size: cover; /* La imagen cubre toda la sección */
+    background-position: center; /* La imagen está centrada */
+    color: white;
+    height: 600px;
+    display: flex;
+    text-align: right;
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: right; /* Centra el contenido horizontalmente */
+    padding-right: 30px;
+}
+
+.hero-section h1 {
+    font-size: 3rem; /* Tamaño grande para el título principal */
+}
+
+.hero-section p {
+    font-size: 1.25rem; /* Tamaño adecuado para párrafos */
+}
+
+/*------------- LOGO SECTION------*/
+.logo-box {
+    width: 280px; /* Ancho del rectángulo del logo */
+    padding: 5px;
+    background-color: white; /* Fondo blanco para el logo */
+    border: 2px solid #00aef0; /* Borde azul */
+    text-align: center; /* Centra el texto dentro del logo */
+}
+
+.logo-line-1, .logo-line-2, .logo-line-3 {
+    text-align: center;
+    font-weight: bold; /* Negrita para las tres líneas */
+    margin: 0; /* Eliminar margen entre las líneas */
+    line-height: 0.9; /* Reducir espacio entre las palabras */
+}
+
+.logo-line-1 {
+    color: #044a8b; /* Azul claro */
+    font-size: 16px; /* Tamaño pequeño para 'CENTER FOR' */
+}
+
+.logo-line-2 {
+    color: #4794dd; /* Azul más claro */
+    font-size: 28px; /* Tamaño grande para 'NONPROFIT' */
+}
+
+.logo-line-3 {
+    color: #044a8b; /* Azul claro */
+    font-size: 20px; /* Tamaño medio para 'MANAGEMENT' */
+}
+
+/*------------- SECTION CARDS------*/
+.section-cards {
+    
+    background-color: #e6f2ff; /* Fondo azul claro para las tarjetas */
+    padding: 20px; /* Espaciado interno */
+}
+
+.section-cards h3 {
+    font-size: 1.5rem; /* Tamaño adecuado para los títulos de las tarjetas */
+    color: white;
+}
+
+.section-cards p {
+    color: white; /* Color de los párrafos en las tarjetas */
+}
+
+/* Estilos para tarjetas con fondo azul */
+.blue-card {
+    background-color: #0080ff; /* Fondo azul claro */
+}
+
+/* Estilos para tarjetas con fondo azul oscuro */
+.darklightblue-card {
+    background-color: #365594; /* Fondo azul oscuro */
+}
+.darkblue-card {
+    background-color: #072052; /* Fondo azul oscuro */
+}
+
+
+/*------------- LATEST SECTION------*/
+.latest-news {
+    margin: 40px 0; /* Margen superior e inferior */
+}
+
+.latest-news h2, .featured h2 {
+    display: flex;
+    margin-left: 40px;
+    align-content: space-evenly; /* Distribución equitativa del espacio */
+    font-size: 1.75rem;
+    color: #333; /* Texto gris oscuro */
+    font-weight: bold; /* Texto en negrita */
+}
+.contenedor{
+    margin-top: 20px;
+}
+.container.latest-news {
+    
+    max-width: 1200px; /* Ancho máximo para centrar el contenido */
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+.latest-news .d-flex a {
+    margin-right: 5px; /* Espaciado entre los números en la sección Featured */
+}
+
+/*------------- SERVICE CARDS SECTION------*/
+.section-cards {
+    padding: 40px 0; /* Espaciado superior e inferior */
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column; /* Alinea el contenido en columna */
+    align-items: center;    /* Centra los elementos horizontalmente */
+    text-align: center;     /* Alinea el texto al centro */        
+    padding: 20px;
+    background-color: #f8f9fa; /* Fondo gris claro */
+    transition: background-color 0.3s ease; /* Animación suave al pasar el ratón */
+}
+
+.service-box:hover {
+    background-color: #e9ecef; /* Cambio de color al pasar el ratón */
+}
+
+.icon {
+    background-color: #2c97de; /* Fondo azul para el ícono */
+    padding: 15px;
+    margin-right: 20px; /* Separación del texto */
+}
+
+.icon i {
+    font-size: 30px; /* Tamaño del ícono */
+    color: white; /* Color del ícono blanco */
+}
+
+.service-box h4 {
+    font-size: 20px; /* Tamaño de título en las tarjetas */
+    margin-bottom: 10px;
+    color: #2c97de; /* Color del título azul */
+}
+
+.service-box p {
+    font-size: 14px; /* Tamaño del texto en las tarjetas */
+    color: #777; /* Texto gris */
+}
+
+.content-wrapper {
+    display: flex; /* Establece un diseño en línea para el ícono y el texto */
+    align-items: flex-start; /* Alinea el ícono y el texto en la parte superior */
+}
+
+/*------------- FOOTER------*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+}
+.footer-divider {
+    border-left: 2.3px solid #292929;
+    height: 170px; 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    box-shadow: 1px 0 0 0 rgba(114, 113, 113, 0.3);
+}
+.footer-section {
+    margin-bottom: 10px;
+}
+.footer-text {
+    font-size: 14px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+.phone-section{
+    margin-top: 103px;
+    margin-left: -130px;
+}
+.footer-address{
+    line-height: 1.6;
+    padding-left: 150px;
+}
+.phone-section p{
+    margin-bottom: 0;
+}
+
+#datos{
+    font-size: 16px;
+}
+
+#info{
+    font-size: 15px;
+    max-width: 850px;
+}
+
+#clase1{
+    font-size: 16px;
+}
