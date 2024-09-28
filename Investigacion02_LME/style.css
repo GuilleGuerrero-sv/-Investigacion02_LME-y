@@ -59,6 +59,7 @@
 .logo-img {
     width: 280px; /* Ajusta al tamaño del logo original */
     height: auto; /* Mantiene la proporción de la imagen */
+}
 
 /*------------- SECTION CARDS------*/
 .section-cards {
@@ -152,7 +153,7 @@ div>div>div>a{
     margin-right: 0.8em;
 }
 
-div>div>div>a:nth-child(2){
+div>div>div.numeros>a:nth-child(2){
     color: darkslategray;
 }
 
