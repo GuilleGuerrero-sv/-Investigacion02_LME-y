@@ -1,4 +1,4 @@
-/*------------- HERO SECTION------*/
+/*------------- HERO SECTION ------*/
 .hero-section {
     background-image: url('img/prueba1.png'); /* Aquí colocas tu imagen de fondo */
     background-size: cover; /* La imagen cubre toda la sección */
@@ -20,40 +20,53 @@
     font-size: 1.25rem; /* Tamaño adecuado para párrafos */
 }
 
-/*------------- LOGO SECTION------*/
-.logo-box {
-    width: 280px; /* Ancho del rectángulo del logo */
-    padding: 5px;
-    background-color: white; /* Fondo blanco para el logo */
-    border: 2px solid #00aef0; /* Borde azul */
-    text-align: center; /* Centra el texto dentro del logo */
+
+/*------------- NAVBAR (Actualizado) -------------*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el logo y los botones */
+    align-items: center;
+    padding: 10px 50px; /* Aumenta el padding para expandir el espacio */
+    background-color: white;
 }
 
-.logo-line-1, .logo-line-2, .logo-line-3 {
-    text-align: center;
-    font-weight: bold; /* Negrita para las tres líneas */
-    margin: 0; /* Eliminar margen entre las líneas */
-    line-height: 0.9; /* Reducir espacio entre las palabras */
+.navbar-brand {
+    margin-right: auto; /* Desplaza el logo hacia la izquierda */
+    padding-left: 20px; /* Ajusta la posición del logo */
+    flex: 1; /* Permite que el logo ocupe más espacio */
 }
 
-.logo-line-1 {
-    color: #044a8b; /* Azul claro */
-    font-size: 16px; /* Tamaño pequeño para 'CENTER FOR' */
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    flex-grow: 2; /* Permite que el contenedor de los botones ocupe más espacio */
 }
 
-.logo-line-2 {
-    color: #4794dd; /* Azul más claro */
-    font-size: 28px; /* Tamaño grande para 'NONPROFIT' */
+.nav-item {
+    margin: 0 20px; /* Aumenta la separación entre los botones */
 }
 
-.logo-line-3 {
-    color: #044a8b; /* Azul claro */
-    font-size: 20px; /* Tamaño medio para 'MANAGEMENT' */
+.nav-link {
+    color: gray;
+    padding: 15px 30px; /* Aumenta el padding para hacer los botones más grandes */
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Mantiene el borde redondeado */
 }
 
-/*------------- SECTION CARDS------*/
+.nav-link.active {
+    background-color: #00ADEF; /* Color azul para el botón activo */
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #00ADEF; /* Color azul en hover */
+    color: white;
+}
+
+/*------------- SECTION CARDS ------*/
 .section-cards {
-    
     background-color: #e6f2ff; /* Fondo azul claro para las tarjetas */
     padding: 20px; /* Espaciado interno */
 }
@@ -76,12 +89,12 @@
 .darklightblue-card {
     background-color: #365594; /* Fondo azul oscuro */
 }
+
 .darkblue-card {
     background-color: #072052; /* Fondo azul oscuro */
 }
 
-
-/*------------- LATEST SECTION------*/
+/*------------- LATEST SECTION ------*/
 .latest-news {
     margin: 40px 0; /* Margen superior e inferior */
 }
@@ -94,11 +107,12 @@
     color: #333; /* Texto gris oscuro */
     font-weight: bold; /* Texto en negrita */
 }
-.contenedor{
+
+.contenedor {
     margin-top: 20px;
 }
+
 .container.latest-news {
-    
     max-width: 1200px; /* Ancho máximo para centrar el contenido */
     margin: 0 auto; /* Centrado horizontal */
 }
@@ -107,7 +121,7 @@
     margin-right: 5px; /* Espaciado entre los números en la sección Featured */
 }
 
-/*------------- SERVICE CARDS SECTION------*/
+/*------------- SERVICE CARDS SECTION ------*/
 .section-cards {
     padding: 40px 0; /* Espaciado superior e inferior */
 }
@@ -153,7 +167,7 @@
     align-items: flex-start; /* Alinea el ícono y el texto en la parte superior */
 }
 
-/*------------- FOOTER------*/
+/*------------- FOOTER ------*/
 footer {
     background-color: #333; /* Fondo gris oscuro */
     color: white; /* Texto blanco */
@@ -167,4 +181,9 @@ footer a {
 
 footer a:hover {
     text-decoration: underline; /* Subrayado al pasar el ratón por los enlaces */
+}
+
+.logo-img {
+    width: 280px; /* Ajusta al tamaño del logo original */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
