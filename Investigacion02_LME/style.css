@@ -94,7 +94,7 @@ svg{
     transition: 1s;
 }
 
-a:hover svg{
+a:hover>svg{
     transition: 1s;
     transform: translateX(12px);
 }
@@ -145,10 +145,6 @@ div>div>div>a{
 
 div>div>div>a:nth-child(2){
     color: darkslategray;
-}
-
-.d-flex .justify-content-end{
-    padding-right: 106px;
 }
 
 /*------------- SERVICE CARDS SECTION------*/
