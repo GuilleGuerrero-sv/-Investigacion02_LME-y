@@ -205,16 +205,60 @@ div>div>div.numeros>a:nth-child(2){
 
 /*------------- FOOTER------*/
 footer {
-    background-color: #333; /* Fondo gris oscuro */
-    color: white; /* Texto blanco */
-    padding: 20px 0; /* Espaciado interno en el pie de página */
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+}
+.footer-divider {
+    border-left: 2.3px solid #292929;
+    height: 170px; 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    box-shadow: 1px 0 0 0 rgba(114, 113, 113, 0.3);
+}
+.footer-section {
+    margin-bottom: 10px;
+}
+.footer-text {
+    font-size: 14px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+.phone-section{
+    margin-top: 103px;
+    margin-left: -130px;
+}
+.footer-address{
+    line-height: 1.6;
+    padding-left: 150px;
+}
+.phone-section p{
+    margin-bottom: 0;
 }
 
-footer a {
-    color: #ddd; /* Color gris claro para los enlaces */
-    text-decoration: none; /* Sin subrayado en los enlaces */
+#datos{
+    font-size: 16px;
 }
 
-footer a:hover {
-    text-decoration: underline; /* Subrayado al pasar el ratón por los enlaces */
+#info{
+    font-size: 15px;
+    max-width: 850px;
+}
+
+#clase1{
+    font-size: 16px;
 }
